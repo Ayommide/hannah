@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    padding: 2em;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container{
+    background-color:#fff;
+}
+
+
+.single{
+    padding: 2em;
+}
+
+.single h3{
+    color:  hsl(71, 73%, 54%);
+    margin-bottom: 0.6em;
+}
+
+.single h1{
+    color:hsl(179, 62%, 43%) ;
+    margin-bottom: 0.5em;
+}
+
+.single p{
+    color:  hsl(218, 22%, 67%);
+     line-height: 1.5;           
+}
+ 
+main{
+    display: flex;
+    flex-direction: column;
+    padding:30px;
+}
+
+.code{
+    background-color:hsl(179, 62%, 43%);
+    padding: 1.5em;
+    color: white;
+}
+
+.code h2{
+    margin-bottom: 15px;
+}
+
+.code h4{
+    font-size: 10px;
+    font-weight: 300;
+    margin-bottom: 0.7em;
+     
+}
+.code span{
+    font-size:30px;
+    font-weight: 700;
+    margin-right:5px;
+}
+
+.code p{
+    margin:1em 0;
+}
+
+button{
+    background-color:  hsl(71, 73%, 54%);
+    color: #fff;
+    font-family: inherit;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 1em;
+    border-radius: 0.5em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+
+article{
+    background-color:  hsl(179, 99%, 39%);
+    color: #fff;
+    padding: 1.5em;
+    line-height: 1.5;
+    
+
+}
+
+article h2{
+    margin-bottom: 0.5em;
+}
