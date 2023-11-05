@@ -77,12 +77,16 @@ main{
 .monthly-subscription h2{
     margin-bottom: 15px;
 }
-
-.monthly-subscription h4{
+.subscription{
+    display: flex;
+    gap: 0.75em;
+}
+.monthly-subscription .opacity{
     font-size: 10px;
-    font-weight: 300;
-    margin-bottom: 0.7em;
-     
+    font-weight: 400;
+    margin-bottom: 1em;
+    opacity: 0.6;
+
 }
 .monthly-subscription span{
     font-size:30px;
@@ -98,8 +102,8 @@ button{
     background-color:  hsl(71, 73%, 54%);
     color: #fff;
     font-family: inherit;
-    font-size: 17px;
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: 700;
     padding: 1em;
     border-radius: 0.5em;
     border: none;
